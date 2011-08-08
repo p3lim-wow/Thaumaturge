@@ -1,6 +1,6 @@
 ## Interface: 40200
 ## Author: p3lim
-## Version: Alpha
+## Version: 40200.1-Beta
 ## Title: Thaumaturge
 ## Notes: Simplifies reforging
 
