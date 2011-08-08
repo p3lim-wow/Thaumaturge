@@ -1,0 +1,7 @@
+## Interface: 40200
+## Author: p3lim
+## Version: Alpha
+## Title: Thaumaturge
+## Notes: Simplifies reforging
+
+Thaumaturge.lua
