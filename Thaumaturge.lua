@@ -117,7 +117,6 @@ function Thaumaturge:PLAYER_LOGIN()
 	self:RegisterEvent('FORGE_MASTER_OPENED')
 	self:RegisterEvent('FORGE_MASTER_CLOSED')
 	self:RegisterEvent('ADDON_LOADED')
-	self:RegisterEvent('GOSSIP_SHOW')
 
 	self.displayMode = 'MENU'
 	self.initialize = InitDropdown
