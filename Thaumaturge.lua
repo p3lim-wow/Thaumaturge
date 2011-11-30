@@ -2,7 +2,6 @@ local addonName = ...
 local Thaumaturge = CreateFrame('Frame', addonName)
 
 local function PreForge(self, id)
-	print(id)
 	ReforgeItem(id)
 end
 
