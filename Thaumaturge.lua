@@ -92,14 +92,8 @@ local origSize
 local origEnter = PaperDollItemSlotButton_OnEnter
 local origLeave = UIDropDownMenu_OnHide
 function Thaumaturge:FORGE_MASTER_OPENED()
-	origSize = CharacterFrame.Expanded
-
 	if(not PaperDollFrame:IsVisible()) then
 		ToggleCharacter('PaperDollFrame')
-	end
-
-	if(CharacterFrame.Expanded) then
-		CharacterFrame_Collapse()
 	end
 
 	PaperDollItemSlotButton_OnEnter = ReforgeHook
@@ -118,10 +112,6 @@ end
 function Thaumaturge:FORGE_MASTER_CLOSED()
 	PaperDollItemSlotButton_OnEnter = origEnter
 	UIDropDownMenu_OnHide = origLeave
-
-	if(origSize and not CharacterFrame.Expanded) then
-		CharacterFrame_Expand()
-	end
 end
 
 function Thaumaturge:PLAYER_LOGIN()
