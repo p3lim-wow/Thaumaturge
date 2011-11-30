@@ -124,13 +124,6 @@ function Thaumaturge:FORGE_MASTER_CLOSED()
 	end
 end
 
-function Thaumaturge:GOSSIP_SHOW()
-	-- TODO: Localize
-	if(GetNumGossipOptions() == 2 and GossipTitleButton1:GetText() == 'Reforge an item.') then
-		SelectGossipOption(1)
-	end
-end
-
 function Thaumaturge:PLAYER_LOGIN()
 	self:RegisterEvent('FORGE_MASTER_OPENED')
 	self:RegisterEvent('FORGE_MASTER_CLOSED')
