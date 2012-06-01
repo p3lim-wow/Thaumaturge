@@ -1,6 +1,6 @@
 ## Interface: 40300
 ## Author: p3lim
-## Version: 40300.3-Beta
+## Version: @project-version@
 ## Title: Thaumaturge
 ## Notes: Simplifies reforging
 
